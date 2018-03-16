@@ -1,0 +1,48 @@
+#travel_with {
+  height: 1020px;
+  overflow: hidden;
+  background-image: url(../images/travel/bg_map.png), url(../images/travel/bg_lake.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top 30px , center bottom;
+}
+#travel_with .travel_wave {
+  margin-left: 50%;
+}
+#travel_with h1 {
+  color: #2c2e37;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42.73px;
+  text-transform: uppercase;
+  letter-spacing: 3.51px;
+  margin: 0 auto;
+  max-width: 350px;
+}
+#travel_with .slider_travel {
+  margin: 0 auto;
+  max-width: 240px;
+}
+#travel_with .btn_slider {
+  margin: 10px auto;
+  max-width: 150px;
+}
+#travel_with .btn_slider2 {
+  color: #e6ffff;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -2px -2px #000;
+  padding: 2px 10px;
+  background-color: #084B8A;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%), -webkit-radial-gradient(190% 100% at 50% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%), -o-radial-gradient(190% 100% at 50% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+  background-repeat: no-repeat;
+  -webkit-background-size: 200% 100%, auto;
+          background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px;
+}

@@ -1,0 +1,265 @@
+.journal {
+  max-width: 270px;
+  margin: 68px auto;
+}
+.journal h1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 3.51px;
+  color: #2c2e37;
+  text-transform: uppercase;
+  text-align: center;
+}
+.journal .journal_wave {
+  padding-left: 33.333333%;
+}
+.jorn1 {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1140px;
+}
+.jorn1 .inside_first {
+  width: 380px;
+  height: 380px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.jorn1 h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #16b5ef;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.74px;
+  line-height: 12.54px;
+}
+.jorn1 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.55px;
+  line-height: 24.23px;
+}
+.jorn1 h3 {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.8px;
+  text-align: center;
+}
+.jorn1 h4 {
+  color: #212121;
+  font-family: "Times New Roman ";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+}
+.journal_1 {
+  overflow: hidden;
+  width: 1143px;
+  height: 381px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.journal_1 #img2_heart {
+  left: 150px;
+  top: 150px;
+}
+.journal_1 .head_line {
+  padding-left: 381px;
+}
+.journal_1 .head_line h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #16b5ef;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 49px 0 0 172px;
+  text-transform: uppercase;
+  letter-spacing: 1.74px;
+  line-height: 12.54px;
+}
+.journal_1 .head_line h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.55px;
+  margin: 113px 0 0 30px;
+  line-height: 24.23px;
+}
+.journal_1 .head_line p {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin: 24px 0 0 35px;
+  line-height: 22.8px;
+  text-align: center;
+}
+.journal_1 .head_line h4 {
+  color: #212121;
+  font-family: "Times New Roman ";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+  margin: 39px 0 0 184px;
+}
+.journal_1 #water_img {
+  position: relative;
+}
+.journal_1 #img2_water {
+  left: 161px;
+  top: 153px;
+}
+.journal_2 {
+  overflow: hidden;
+  max-width: 1140px;
+  height: 380px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.journal_2 .center_line {
+  width: 381px;
+}
+.journal_2 .center_line h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #16b5ef;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 49px 0 0 172px;
+  text-transform: uppercase;
+  letter-spacing: 1.74px;
+  line-height: 12.54px;
+}
+.journal_2 .center_line h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.55px;
+  margin: 113px 0 0 30px;
+  line-height: 24.23px;
+}
+.journal_2 .center_line p {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin: 24px 0 0 35px;
+  line-height: 22.8px;
+  text-align: center;
+}
+.journal_2 .center_line h4 {
+  color: #212121;
+  font-family: "Times New Roman ";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+  margin: 39px 0 0 184px;
+}
+.journal_2 #leaf_img {
+  position: relative;
+}
+.journal_2 #img2_leaf {
+  left: 158px;
+  top: 158px;
+}
+.journal_2 .footer_line {
+  width: 381px;
+}
+.journal_2 .footer_line h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #16b5ef;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.74px;
+  line-height: 12.54px;
+}
+.journal_2 .footer_line h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.55px;
+  margin: 113px 0 0 30px;
+  line-height: 24.23px;
+}
+.journal_2 .footer_line p {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin: 54px 0 0 35px;
+  line-height: 22.8px;
+  text-align: center;
+}
+.journal_2 .footer_line h4 {
+  color: #212121;
+  font-family: "Times New Roman ";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+  margin: 39px 0 0 184px;
+}
+.journal_footer {
+  height: 60px;
+}

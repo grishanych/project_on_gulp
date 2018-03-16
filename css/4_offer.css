@@ -1,0 +1,162 @@
+#offer {
+  height: 667px;
+  overflow: hidden;
+  background: url(../images/offer/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#offer .offer_text {
+  height: 215px;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#offer .offer_text .offer_wave {
+  position: absolute;
+  margin: 146px 0 0 0;
+}
+#offer .offer_text h1 {
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42.73px;
+  letter-spacing: 2.34px;
+  color: #2c2e37;
+  text-transform: uppercase;
+  padding: 194px 0 0 0;
+}
+#offer .offer_text h2 {
+  color: #949494;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 260px 0 0 0;
+}
+#offer .lock-locked {
+  position: absolute;
+  margin: 197px 0 0 0px;
+}
+#offer p {
+  position: absolute;
+  margin: 190px 0 0 20px;
+  color: #36aeea;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  /* Text style for "* Your dat" */
+  letter-spacing: 0.28px;
+}
+#offer .form {
+  margin-top: 130px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+#offer .form input {
+  float: left;
+}
+#offer .form input[type="text"] {
+  padding: 0;
+  border: 0;
+  width: 304px;
+  margin-right: 2px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #848484;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  padding: 12px 20px 13px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*ширина,в яку вже включені paddingи*/
+}
+#offer .form input[type="submit"] {
+  color: #fff;
+  background: #36aeea;
+  border: 0;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 12px 35px 13px 35px;
+  cursor: pointer;
+}
+@media (max-width: 709px) {
+  #offer .form {
+    margin: 150px 0;
+  }
+}
+@media (max-width: 628px) {
+  #offer .form {
+    margin: 150px 0;
+  }
+}
+@media (max-width: 400px) {
+  #offer .form {
+    margin: 200px 0;
+  }
+}
+@media (max-width: 628px) {
+  #offer .form input[type="text"] {
+    display: block;
+    float: none;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 320px) {
+  #offer .form input[type="text"] {
+    width: 280px;
+  }
+}
+@media (max-width: 824px) {
+  #offer p {
+    margin: 220px 0 0 20px;
+  }
+  #offer .lock-locked {
+    margin: 227px 0 0 0;
+  }
+}
+@media (max-width: 709px) {
+  #offer p {
+    margin: 240px 0 0 20px;
+  }
+  #offer .lock-locked {
+    margin: 247px 0 0 0;
+  }
+}
+@media (max-width: 628px) {
+  #offer p {
+    margin: 295px 0 0 20px;
+  }
+  #offer .lock-locked {
+    margin: 303px 0 0 0;
+  }
+}
+@media (max-width: 400px) {
+  #offer p {
+    margin: 350px 0 0 20px;
+  }
+  #offer .lock-locked {
+    margin: 353px 0 0 0;
+  }
+}

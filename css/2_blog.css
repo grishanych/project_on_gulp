@@ -1,0 +1,59 @@
+#blog {
+  margin: 0 auto;
+  height: 703px;
+  max-width: 1920px;
+  overflow: hidden;
+  background: url(../images/blog/bg_full_all.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: -35px;
+}
+#blog .info {
+  margin: 200px 0 0 30px;
+  max-width: 400px;
+}
+@media (max-width: 660px) {
+  #blog .info {
+    margin: 50px 0 0 30px;
+  }
+}
+#blog h1 {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #2c2e37;
+  text-transform: uppercase;
+}
+#blog p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #949494;
+  padding-top: 20px;
+}
+#blog button {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border: 3px solid #36aeea;
+  padding: 15px 26px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-image: none;
+  background: #36aeea;
+  cursor: pointer;
+}
+@media (max-width: 660px) {
+  #blog {
+    background-color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F9FFF2), color-stop(#83a1f3), to(#F9FFF2));
+    background: -webkit-linear-gradient(#F9FFF2, #83a1f3, #F9FFF2);
+    background: -o-linear-gradient(#F9FFF2, #83a1f3, #F9FFF2);
+    background: linear-gradient(#F9FFF2, #83a1f3, #F9FFF2);
+    height: 400px;
+  }
+}

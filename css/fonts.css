@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Raleway';
+  /* Имя шрифта */
+  src: url('../font/Raleway-Black.ttf');
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'Bringin';
+  src: url('../font/Bringin/Bringin.eot');
+  src: url('../font/Bringin/Bringin.woff2') format('woff2'), url('../font/Bringin/Bringin.woff') format('woff'), url('../font/Bringin/Bringin.ttf') format('truetype'), url('../font/Bringin/Bringin.svg#Bringin') format('svg'), url('../font/Bringin/Bringin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueGothic-Regular';
+  src: url('../font/LeagueGothic/LeagueGothic-Regular.eot');
+  src: url('../font/LeagueGothic/LeagueGothic-Regular.woff2') format('woff2'), url('../font/LeagueGothic/LeagueGothic-Regular.woff') format('woff'), url('../font/LeagueGothic/LeagueGothic-Regular.ttf') format('truetype'), url('../font/LeagueGothic/LeagueGothic-Regular.svg#LeagueGothic-Regular') format('svg'), url('../font/LeagueGothic/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
